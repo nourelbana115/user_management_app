@@ -11,7 +11,7 @@ Nodejs app to manage user authentication and authorization.
 
 ## Running the app
 
-- update your env variables with your credentials .
+- update your env variables with your credentials (jwtSecret ,connString) .
 - run npm install to install dependencies .
 - run node server.js to run the app .
 - I have attached postman collection for APIs
