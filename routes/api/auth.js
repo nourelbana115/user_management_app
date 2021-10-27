@@ -4,9 +4,7 @@ const { check } = require('express-validator');
 const auth = require('../../middleware/auth');
 const router = expres.Router();
 const { login, getUser,logout } = require('../../controllers/authController')
-const { authenticate, grantAccess } = require('../../middleware/auth')
-//get user
-//router.get('/', auth, getUser);
+const { authenticate } = require('../../middleware/auth')
 
 // User login
 
